@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('https://hips.hearstapps.com/hmg-prod/images/woman-is-engaged-in-home-fitness-royalty-free-image-1670883916.jpg?crop=0.66635xw:1xh;center,top&resize=980:*') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    color: rgb(46, 15, 84);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.login-box {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+.login-box h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+.textbox label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #fff;
+}
+.textbox input:focus ~ label,
+.textbox input:valid ~ label {
+    top: -18px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 14px;
+}
+.login-box input[type="submit"] {
+    width: 100%;
+    background: #03a9f4;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+.login-box input[type="submit"]:hover {
+    background: #1cb1f5;
+}
+/* .forgot {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    margin-top: -20px;
+} */
+/* .stay-signed-in {
+    float: left;
+    margin-top: 10px;
+    color: #fff;
+}
+.stay-signed-in input {
+    margin-right: 5px;
+} */

@@ -1,1 +1,1 @@
-# Creating a Fitness-Form using HTML, Css and my creativity for Botspot assingnment.
+# Creating a Fitness-Form using HTML and Css, my creativity for Botspot assingnment.
